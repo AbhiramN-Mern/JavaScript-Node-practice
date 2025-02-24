@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+    <style>
+        #div {
+            background-color: black;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div"></div>
+    <button onclick="change()">Click</button>
+</body>
+<script>
+    let colorIndex = 0; // To track the current color
+
+    function change() {
+        const div = document.getElementById('div');
+        if (colorIndex === 0) {
+            div.style.backgroundColor = 'red';
+        } else if (colorIndex === 1) {
+            div.style.backgroundColor = 'green';
+        } else if (colorIndex === 2) {
+            div.style.backgroundColor = 'yellow';
+        }
+        colorIndex = (colorIndex + 1) % 3; // Loop back to the first color after yellow
+    }
+</script>
+</html>
