@@ -1,4 +1,4 @@
-Want more questions? Try this Notion  Note - https://www.notion.so/JavaScript-practical-questions-19f6d440cdda808f928cf89713404263?source=copy_link
+Want more questions? Try this Notion  Note - https://bit.ly/NotionNote
 ## Repository Contents
 
 ### JavaScript
