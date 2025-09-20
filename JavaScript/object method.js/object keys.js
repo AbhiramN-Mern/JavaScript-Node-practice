@@ -1,7 +1,7 @@
 const obj ={
-    name : "vaisakh",
-    age : 21,
-    place : "malppuram",
+    name : "Abhiram",
+    age : 18,
+    place : "Kasargod",
 }
 //object key
 const key = Object.keys(obj);
